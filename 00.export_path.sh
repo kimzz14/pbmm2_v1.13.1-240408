@@ -16,4 +16,11 @@ fi
 
 #conda install pbmm2
 #bioconda/linux-64::pbmm2-1.13.1-h9ee0642_0
+
+#conda install samtools
+#bioconda/linux-64::samtools-1.18-h50ea8bc_1
+#bioconda/linux-64::htslib-1.18-h81da01d_0
+
+#conda install bcftools
+#bioconda/linux-64::bcftools-1.18-h8b25389_0
 ##################################################################################
