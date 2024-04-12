@@ -1,11 +1,13 @@
 ############################################################################################
 readID=$1
+threadN=$2
 
 readDir=/test
 ############################################################################################
 
 pbmm2 align \
     --preset CCS \
+    --num-threads ${threadN} \
     --log-level INFO \
     reference/ref.fa \
     ${readDir}/${readID}.fastq.gz \
